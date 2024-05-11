@@ -27,11 +27,20 @@
 
 </head>
 <body>
-    <header>
-        <!-- nav bar -->
-    </header>
+    <div class="mx-32 mt-14">
+        <header>
+            <!-- nav bar -->
+            <input placeholder="search anything" class="bg-gray-100" type="search" name="Search" id="">
+            <button onclick="discuss()" for="">Search</>
+        </header>
+    
+        <main>
+            <ul id="list">
+            </ul>
+        </main>
+    </div>
 
-    <footer>
+    <footer class="mt-24">
         <div class="py-24 px-32 bg-gray-100 mb-4 w-full flex flex-col items-center font-mulish">
             <div class="text-[#12132D] text-center font-black text-4xl leading-normal">
                 <h3>ReTro</h3>
@@ -69,5 +78,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="scripts/dis.js"></script>
 </body>
 </html>
